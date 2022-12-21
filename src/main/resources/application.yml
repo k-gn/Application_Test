@@ -10,3 +10,22 @@ spring:
     properties:
       hibernate:
         format_sql: true
+
+  # chaos monkey 활성화
+  profiles:
+    active: chaos-monkey
+
+management:
+  endpoint:
+    chaosmonkey:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info,chaosmonkey
+
+# Repository Watcher 활성화
+chaos:
+  monkey:
+    watcher:
+      repository: true

@@ -40,6 +40,8 @@ import com.app.thejavatest.domain.Study;
 import com.app.thejavatest.domain.StudyStatus;
 
 /*
+	https://junit.org/junit5/docs/current/user-guide/
+
 	Method와 Class 레퍼런스를 사용해서 테스트 이름을 표기하는 방법 설정.
  */
 @DisplayNameGeneration(DisplayNameGenerator.ReplaceUnderscores.class)

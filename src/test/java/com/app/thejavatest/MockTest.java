@@ -19,6 +19,12 @@ import com.app.thejavatest.study.StudyRepository;
 import com.app.thejavatest.study.StudyService;
 
 /*
+	https://site.mockito.org/
+	https://martinfowler.com/bliki/UnitTest.html
+	https://javadoc.io/static/org.mockito/mockito-core/3.2.0/org/mockito/BDDMockito.html
+	https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#BDD_behavior_verification
+
+
 	단위 테스트의 단위의 기준은 사람마다 다르다.
 	mocking 의 범위 기준도 사람마다 다르다.
 	-> 프로젝트 시작 전 정하고 들어가면 된다.
