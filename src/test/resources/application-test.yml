@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:///studytest
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    # driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+

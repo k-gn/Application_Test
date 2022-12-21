@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  study-db:
+    image: postgres
+    ports:
+      - 5432 # 테스트 yml 에선 포트매핑을 안해주는 것이 좋다.
+    environment:
+      POSTGRES_PASSWORD: studytest
+      POSTGRES_USER: studytest
+      POSTGRES_DB: studytest
